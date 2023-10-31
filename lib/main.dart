@@ -118,8 +118,8 @@ class DataFromAPI extends StatelessWidget {
               itemCount: state.posts.length,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text(state.posts[index]['title']),
-                  subtitle: Text(state.posts[index]['body']),
+                  title: Text(state.posts[index].title),
+                  subtitle: Text(state.posts[index].body),
                 );
               },
             );
